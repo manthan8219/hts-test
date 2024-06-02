@@ -18,4 +18,6 @@ https://hts-test.onrender.com/singup - to login with the user u have created
 the response will be a token and a message that user is successfully logged in
 
 
+note - both of the calls are post calls
+
 
