@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "rootDirs": ["src"],
+    "outDir": "dist",
+    "lib": ["es2020"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2017",
+    "module": "commonjs"
+  },
+ "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
