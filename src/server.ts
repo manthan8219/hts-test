@@ -4,7 +4,7 @@ import { signUp, signIn } from "./controller/controller";
 
 const app = express();
 const port = process.env.PORT || 3000;
-const mongoUri = process.env.MONGO_URI || "mongodb://localhost:27017/";
+const mongoUri = process.env.MONGO_URI;
 
 app.use(express.json());
 
